@@ -1,0 +1,26 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-JS-MARSDB-480405:
+    - '*':
+        reason: >-
+          Tidak ada patch tersedia; marsdb sengaja dipakai Juice Shop untuk lab
+          kerentanan NoSQL
+        expires: 2027-06-30T00:00:00.000Z
+        created: 2026-11-09T04:49:32.135Z
+  SNYK-JS-LIBXMLJS2-6808810:
+    - '*':
+        reason: >-
+          Dependensi tidak langsung dari cyclonedx-npm (dev tooling), tidak
+          masuk production bundle
+        expires: 2027-06-30T00:00:00.000Z
+        created: 2026-11-09T04:49:51.944Z
+  SNYK-JS-NOTEVIL-2385946:
+    - '*':
+        reason: >-
+          Dipakai Juice Shop untuk tantangan sandbox bypass; tidak ada patch
+          tersedia
+        expires: 2027-06-30T00:00:00.000Z
+        created: 2026-11-09T04:51:15.703Z
+patch: {}
