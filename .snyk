@@ -9,13 +9,6 @@ ignore:
           kerentanan NoSQL
         expires: 2027-06-30T00:00:00.000Z
         created: 2026-11-09T04:49:32.135Z
-  SNYK-JS-LIBXMLJS2-6808810:
-    - '*':
-        reason: >-
-          Dependensi tidak langsung dari cyclonedx-npm (dev tooling), tidak
-          masuk production bundle
-        expires: 2027-06-30T00:00:00.000Z
-        created: 2026-11-09T04:49:51.944Z
   SNYK-JS-NOTEVIL-2385946:
     - '*':
         reason: >-
